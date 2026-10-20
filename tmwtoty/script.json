@@ -1,0 +1,34 @@
+[
+  "investigator",
+  {
+	"id": "toymaker",
+	"name": "Toymaker",
+	"team": "townsfolk",
+	"firstNightReminder": "The Toymaker is shown a number. :reminder:",
+	"reminders": [
+	  "IsElf"
+	],
+	"setup": false,
+	"ability": "You start knowing the largest group of good players sitting next to each other.",
+	"flavor": "To be written",
+	"firstNight": 8,
+	"image": [ "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons/toymaker.png" ]
+  },
+  "grandmother",
+  {
+	"id": "caroler",
+    "name": "Caroler",
+    "team": "townsfolk",
+    "firstNightReminder": "The Caroler is shown a number. :reminder:",
+    "otherNightReminder": "The Caroler is shown a number. :reminder:",
+	"reminders": [
+	  "IsElf"
+	],
+	"setup": false,
+	"ability": "Each night, you learn how many players are on the nice list.",
+	"flavor": "To be written",
+	"firstNight": 60,
+	"otherNight": 75,
+	"image": [ "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons/caroler.png" ]
+  }
+]
