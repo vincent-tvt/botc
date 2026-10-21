@@ -28,7 +28,7 @@
     "setup": false,
     "ability": "You start knowing the largest group of good players sitting next to each other.",
     "flavor": "To be written",
-    "firstNight": 8,
+    "firstNight": 39,
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/TOWNSFOLK_Toymaker.png"
     ]
@@ -382,7 +382,6 @@
     "otherNightReminder": "Santa Clause chooses 3 players. Mark two of them with \"NAUGHTY LIST NIGHT 1\", and one as dead.",
     "setup": true,
     "otherNight": 35,
-    "firstNight": 35,
     "ability": "Each night, choose three players: One dies, the other two are placed on the naughty list. Players that have been on the naughty list for 3 nights in a row die.",
     "flavor": "bleet",
     "image": [
