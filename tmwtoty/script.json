@@ -71,8 +71,8 @@
     "setup": false,
     "ability": "Each night, you learn if a player has changed alignment tonight.",
     "flavor": "Baaah I am worrying about this later",
-    "firstNight": 67,
-    "otherNight": 80,
+    "firstNight": 69,
+    "otherNight": 85,
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/TOWNSFOLK_Shepherd.png"
     ]
@@ -218,8 +218,8 @@
       "Evil Team"
     ],
     "setup": false,
-	"firstNight": 69,
-	"otherNight": 85,
+	"firstNight": 67,
+	"otherNight": 80,
     "ability": "When you die, choose a player: If they are on the naughty list, they become evil.",
     "flavor": "bleet",
     "image": [
