@@ -4,7 +4,22 @@
     "name": "The Most Wonderful Time of the Year",
     "author": "Vincent"
   },
-  "investigator",
+  {
+    "id": "polar_explorer",
+    "name": "Polar Explorer",
+    "team": "townsfolk",
+    "firstNightReminder": "Show the Minion character token. Point to both the \"MINION\" and \"WRONG\" players.",
+    "setup": false,
+    "ability": "You start knowing that 1 of 2 players is a particular minion.",
+    "firstNight": 40,
+    "reminders": [
+      "Minion",
+      "Wrong"
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/TOWNSFOLK_Explorer.png"
+    ]
+  },
   {
     "id": "toymaker_tf",
     "name": "Toymaker",
@@ -18,7 +33,20 @@
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/TOWNSFOLK_Toymaker.png"
     ]
   },
-  "grandmother",
+  {
+    "id": "godmother",
+    "name": "Godmother",
+    "team": "townsfolk",
+    "firstNightReminder": "Point towards the grandchild and show their character token",
+    "ability": "You start knowing a good player and their character. If they are placed on the naughty list, you are too.",
+    "firstNight": 41,
+    "reminders": [
+      "Godchild"
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/TOWNSFOLK_Godmother.png"
+    ]
+  },
   {
     "id": "caroler",
     "name": "Caroler",
