@@ -9,13 +9,7 @@
     "id": "toymaker_tf",
     "name": "Toymaker",
     "team": "townsfolk",
-    "firstNightReminder": "The Toymaker is shown a number. :reminder:",
-    "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
+    "firstNightReminder": "The Toymaker is shown a number.",
     "setup": false,
     "ability": "You start knowing the largest group of good players sitting next to each other.",
     "flavor": "To be written",
@@ -29,14 +23,8 @@
     "id": "caroler",
     "name": "Caroler",
     "team": "townsfolk",
-    "firstNightReminder": "The Caroler is shown a number. :reminder:",
-    "otherNightReminder": "The Caroler is shown a number. :reminder:",
-    "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
+    "firstNightReminder": "The Caroler is shown a number.",
+    "otherNightReminder": "The Caroler is shown a number.",
     "setup": false,
     "ability": "Each night, you learn how many players are on the nice list.",
     "flavor": "To be written",
@@ -50,14 +38,8 @@
     "id": "shepherd",
     "name": "Shepherd",
     "team": "townsfolk",
-    "firstNightReminder": "Wake the Shepherd and nod or shake your head :reminder:",
-    "otherNightReminder": "Wake the Shepherd and nod or shake your head :reminder:",
-    "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
+    "firstNightReminder": "Wake the Shepherd and nod or shake your head ",
+    "otherNightReminder": "Wake the Shepherd and nod or shake your head ",
     "setup": false,
     "ability": "Each night, you learn if a player has changed alignment tonight.",
     "flavor": "Baaah I am worrying about this later",
@@ -71,13 +53,7 @@
     "id": "gift_wrapper",
     "name": "Gift Wrapper",
     "team": "townsfolk",
-    "otherNightReminder": "The Gift Wrapper chooses a player. :reminder:",
-    "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
+    "otherNightReminder": "The Gift Wrapper chooses a player.",
     "setup": false,
     "ability": "Each night*, choose a player: If they are on the nice list, you learn their alignment.",
     "flavor": "presents",
@@ -90,14 +66,8 @@
     "id": "snow_sweeper",
     "name": "Snow Sweeper",
     "team": "townsfolk",
-    "firstNightReminder": "The Snow Sweeper is shown one character token :reminder:",
-    "otherNightReminder": "The Snow Sweeper is shown one character token :reminder:",
-    "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
+    "firstNightReminder": "The Snow Sweeper is shown one character token ",
+    "otherNightReminder": "The Snow Sweeper is shown one character token ",
     "setup": false,
     "ability": "Each night, you learn one character that woke up tonight.",
     "flavor": "and snow",
@@ -111,14 +81,8 @@
     "id": "melchior",
     "name": "Melchior",
     "team": "townsfolk",
-    "firstNightReminder": "Melchior may choose up to 2 players :reminder:",
-    "otherNightReminder": "Melchior may choose up to 2 players :reminder:",
-    "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
+    "firstNightReminder": "Melchior may choose up to 2 players ",
+    "otherNightReminder": "Melchior may choose up to 2 players ",
     "setup": false,
     "ability": "Each night, choose up to 2 players: They are placed on the nice list.",
     "flavor": "and snow",
@@ -132,14 +96,10 @@
     "id": "nutcracker",
     "name": "Nutcracker",
     "team": "townsfolk",
-    "firstNightReminder": "The Nutcracker chooses a player :reminder:",
-    "otherNightReminder": "The Nutcracker chooses a player :reminder:",
+    "firstNightReminder": "The Nutcracker chooses a player ",
+    "otherNightReminder": "The Nutcracker chooses a player ",
     "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-      "NutcrackerAccused"
+      "Accused"
     ],
     "setup": false,
     "ability": "Each night, choose a player: Everyone that votes for them the next day is placed on the nice list.",
@@ -154,12 +114,6 @@
     "id": "yuletide_zealot",
     "name": "Yuletide Zealot",
     "team": "townsfolk",
-    "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
     "setup": false,
     "ability": "Each day, you may privately ask the storyteller for a gift. If you are on the nice list, it will be helpful. Otherwise, it might not.",
     "flavor": "Some people just take Christmas way to seriously.",
@@ -171,12 +125,6 @@
     "id": "gooseherd",
     "name": "Gooseherd",
     "team": "townsfolk",
-    "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
     "setup": false,
     "ability": "If both of your alive neighbors are good, they are on the nice list and cannot die.",
     "flavor": "bleet",
@@ -189,12 +137,8 @@
     "name": "Jesus",
     "team": "townsfolk",
     "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-	  "Friday",
-	  "Saturday"
+  	  "First Day",
+  	  "Second Day"
     ],
     "setup": false,
     "ability": "While you are alive, you are always on the nice list. If you are executed, you are resurrected three days later.",
@@ -207,15 +151,11 @@
     "id": "redeemer",
     "name": "Redeemer",
     "team": "townsfolk",
-	"firstNightReminder": "The Redeemer may choose a player :reminder:",
-	"otherNightReminder": "The Redeemer may choose a player :reminder:",
+	"firstNightReminder": "The Redeemer may choose a player ",
+	"otherNightReminder": "The Redeemer may choose a player ",
     "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-	  "Redeemed",
-	  "RedeemerNoAbility"
+  	  "Redeemed",
+  	  "No Ability"
     ],
     "setup": false,
 	"firstNight": 53,
@@ -231,11 +171,7 @@
     "name": "Rapscallion",
     "team": "townsfolk",
     "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-	  "RapscallionNoAbility"
+      "No Ability"
     ],
     "setup": false,
     "ability": "Once per game, publicly declare you are the Rapscallion. If you are executed and all alive good players are on the naughty list, your team wins.",
@@ -248,14 +184,10 @@
     "id": "pessimist",
     "name": "Pessimist",
     "team": "outsider",
-	"firstNightReminder": "If the Pessimist died tonight or yesterday, they may choose a player :reminder:",
-	"otherNightReminder": "If the Pessimist died tonight or yesterday, they may choose a player :reminder:",
+	"firstNightReminder": "If the Pessimist died tonight or yesterday, they may choose a player ",
+	"otherNightReminder": "If the Pessimist died tonight or yesterday, they may choose a player ",
     "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-	  "PessimistEvil"
+      "Evil Team"
     ],
     "setup": false,
 	"firstNight": 69,
@@ -263,7 +195,8 @@
     "ability": "When you die, choose a player: If they are on the naughty list, they become evil.",
     "flavor": "bleet",
     "image": [
-      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/OUTSIDERS_Pessimist.png"
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/OUTSIDERS_Pessimist.png",
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/pessimist_evil.png"
     ]
   },
   {
@@ -271,11 +204,7 @@
     "name": "Judas",
     "team": "outsider",
     "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-	  "JudasNoAbility"
+      "No Ability"
     ],
     "setup": false,
     "ability": "The first time you are chosen by a player at night, they die. If the demon dies this way, you become their character and alignment.",
@@ -289,29 +218,20 @@
     "name": "Grinch",
     "team": "outsider",
     "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-	  "GrinchEvil"
+      "Evil Team"
     ],
     "setup": false,
     "ability": "If you are on the naughty list, you are evil. Otherwise, you are good.",
     "flavor": "bleet",
     "image": [
-      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/OUTSIDERS_Grinch.png"
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/OUTSIDERS_Grinch.png",
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/grinch_evil.png"
     ]
   },
   {
     "id": "scrooge",
     "name": "Scrooge",
     "team": "outsider",
-    "reminders": [
-      "IsElf",
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
     "setup": false,
     "ability": "You might register as evil and as a particular Minion, or as on the naughty list.",
     "flavor": "bleet",
@@ -323,11 +243,22 @@
     "id": "elf",
     "name": "Elf",
     "team": "minion",
-	"otherNightReminder": "If the Elf died yesterday, they choose a player :reminder:",
+	"otherNightReminder": "If the Elf died yesterday, they choose a player ",
     "reminders": [
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf",
+      "Is Elf"
     ],
     "setup": false,
 	"otherNight": 1,
@@ -341,13 +272,10 @@
     "id": "saint_nicholas",
     "name": "Saint Nicholas",
     "team": "minion",
-	"firstNightReminder": "Saint Nicholas chooses a player. :reminder:",
+	"firstNightReminder": "Saint Nicholas chooses a player.",
 	"otherNightReminder": "Saint Nicholas chooses a player. :reminder",
     "reminders": [
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-	  "SaintNickBlocked"
+      "Can Not Vote"
     ],
     "setup": false,
 	"otherNight": 28,
@@ -362,13 +290,10 @@
     "id": "jolakottur",
     "name": "Jólaköttur",
     "team": "minion",
-	"firstNightReminder": "Jólaköttur may choose a player. :reminder:",
+	"firstNightReminder": "Jólaköttur may choose a player.",
 	"otherNightReminder": "Jólaköttur may choose a player. :reminder",
     "reminders": [
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-	  "YulecatPoison"
+      "Poisoned"
     ],
     "setup": false,
 	"otherNight": 30,
@@ -383,11 +308,6 @@
     "id": "rudolph",
     "name": "Rudolph",
     "team": "minion",
-    "reminders": [
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
     "setup": false,
     "ability": "While you are alive, every player that is not on the nice list is on the naughty list.",
     "flavor": "bleet",
@@ -399,14 +319,9 @@
     "id": "krampus",
     "name": "Krampus",
     "team": "minion",
-	"otherNightReminder": "Krampus sees which players were chosen by the Demon and chooses one. :reminder:",
-    "reminders": [
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
+    "otherNightReminder": "Krampus sees which players were chosen by the Demon and chooses one.",
     "setup": false,
-	"otherNight": 36,
+    "otherNight": 36,
     "ability": "Each night*, you learn which players were chosen by the Demon. Choose which one dies.",
     "flavor": "bleet",
     "image": [
@@ -417,14 +332,11 @@
     "id": "winter",
     "name": "Old Man Winter",
     "team": "minion",
-	"firstNightReminder": "Old Man Winter chooses 2 players. :reminder:",
-	"otherNightReminder": "Old Man Winter chooses 2 players. :reminder:",
+    "firstNightReminder": "Old Man Winter chooses 2 players.",
+	  "otherNightReminder": "Old Man Winter chooses 2 players.",
     "reminders": [
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2",
-	  "WinterPoison",
-	  "WinterPoison"
+      "Poisoned",
+      "Poisoned"
     ],
     "setup": false,
 	"otherNight": 33,
@@ -439,19 +351,81 @@
     "id": "santa",
     "name": "Santa Clause",
     "team": "demon",
-	"otherNightReminder": "Santa Clause chooses 3 players. :reminder:",
-    "reminders": [
-      "NiceList",
-      "NaughtyList1",
-      "NaughtyList2"
-    ],
-    "setup": false,
-	"otherNight": 35,
-	"firstNight": 35,
+    "otherNightReminder": "Santa Clause chooses 3 players.",
+    "setup": true,
+    "otherNight": 35,
+    "firstNight": 35,
     "ability": "Each night, choose three players: One dies, the other two are placed on the naughty list. Players that have been on the naughty list for 3 nights in a row die.",
     "flavor": "bleet",
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/DEMONS_Santa_Clause.png"
+    ]
+  },
+
+  {
+    "id": "nice_list_reminders",
+    "name": "Nice List",
+    "team": "fabled",
+    "setup": false,
+    "ability": "Keeps track of which players have been good.",
+    "flavor": "If you find yourself here, good job!",
+    "reminders": [
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List",
+      "Nice List"
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/good_1.png"
+    ]
+  },
+
+  {
+    "id": "naughty_list_reminders_1",
+    "name": "Naughty List",
+    "team": "fabled",
+    "setup": false,
+    "ability": "Keeps track of which players have been naughty.",
+    "flavor": "If you find yourself here, that is okay - it is not too late!",
+    "reminders": [
+      "Night 1",
+      "Night 1",
+      "Night 1",
+      "Night 1",
+      "Night 1"
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/evil_1.png"
+    ]
+  },
+
+  {
+    "id": "naughty_list_reminders_2",
+    "name": "Naughty List",
+    "team": "fabled",
+    "setup": false,
+    "ability": "Keeps track of which players have been really naughty.",
+    "flavor": "If you find yourself here, good luck...",
+    "reminders": [
+      "Night 2",
+      "Night 2",
+      "Night 2",
+      "Night 2",
+      "Night 2"
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/evil_2.png"
     ]
   }
 ]
