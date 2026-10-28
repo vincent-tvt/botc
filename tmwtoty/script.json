@@ -327,7 +327,7 @@
     "setup": false,
     "otherNight": 30,
 	  "firstNight": 30,
-    "ability": "Once per game, at night, choose a character: If in play, they are poisoned.",
+    "ability": "Once per game, at night, choose a character: If in play, they are poisoned and you gain their ability.",
     "flavor": "bleet",
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/MINONS_Jólarköttur.png"
