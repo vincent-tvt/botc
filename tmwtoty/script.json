@@ -338,7 +338,7 @@
     "name": "Rudolph",
     "team": "minion",
     "setup": true,
-    "ability": "While you are alive, every player that is not on the nice list is on the naughty list. [+1 Outsider]",
+    "ability": "While you are alive, every player that is not on the nice list is on the naughty list. *[+1 Outsider]*",
     "flavor": "bleet",
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/MINIONS_Rudolph.png"
