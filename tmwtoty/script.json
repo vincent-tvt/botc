@@ -319,8 +319,8 @@
     "id": "jolakottur",
     "name": "Jólaköttur",
     "team": "minion",
-    "firstNightReminder": "Jólaköttur may choose a character, but is not shown any indicator.",
-	  "otherNightReminder": "Jólaköttur may choose a character, but is not shown any indicator.",
+    "firstNightReminder": "Jólaköttur may choose a character, mark them as \"POISONED\" if in play, and show Jólaköttur the \"You have this ability...\" info token.",
+	  "otherNightReminder": "Jólaköttur may choose a character, mark them as \"POISONED\" if in play, and show Jólaköttur the \"You have this ability...\" info token.",
     "reminders": [
       "Poisoned"
     ],
