@@ -12,6 +12,7 @@
     "setup": false,
     "ability": "You start knowing that 1 of 2 players is a particular minion.",
     "firstNight": 40,
+    "flavor": "It was always dark and stormy up in the Arctic... but still, that face? I could never forget it...",
     "reminders": [
       "Minion",
       "Wrong"
@@ -98,7 +99,7 @@
     "otherNightReminder": "Show one character token of a character that has woken up tonight.",
     "setup": false,
     "ability": "Each night, you learn one character that woke up tonight.",
-    "flavor": "and snow",
+    "flavor": "You would think I would wake up first every morning, but tonight it was snowing, and nevertheless, the foot steps in front of Mr ",
     "firstNight": 70,
     "otherNight": 89,
     "image": [
@@ -273,20 +274,20 @@
     "team": "minion",
 	"otherNightReminder": "If the Elf died yesterday, they choose a player. Mark them with the \"IS ELF\" reminder.",
     "reminders": [
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf",
-      "Is Elf"
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf",
+      "Is An Elf"
     ],
     "setup": false,
 	"otherNight": 1,
@@ -336,8 +337,8 @@
     "id": "rudolph",
     "name": "Rudolph",
     "team": "minion",
-    "setup": false,
-    "ability": "While you are alive, every player that is not on the nice list is on the naughty list.",
+    "setup": true,
+    "ability": "While you are alive, every player that is not on the nice list is on the naughty list. [+1 Outsider]",
     "flavor": "bleet",
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/MINIONS_Rudolph.png"
@@ -367,8 +368,8 @@
       "Poisoned"
     ],
     "setup": false,
-	"otherNight": 33,
-	"firstNight": 33,
+    "otherNight": 33,
+	  "firstNight": 33,
     "ability": "Each night, choose two players: If they are both on the naughty list, they are poisoned tonight and tomorrow day.",
     "flavor": "bleet",
     "image": [
@@ -467,6 +468,32 @@
     ],
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/evil_2.png"
+    ]
+  },
+
+  {
+    "id": "naughty_list_reminders_3",
+    "name": "Naughty List",
+    "team": "fabled",
+    "setup": false,
+    "ability": "Keeps track of which players are playing by different rules.",
+    "flavor": "If you find yourself here, that means we changed the rules...",
+    "reminders": [
+      "Night 3",
+      "Night 3",
+      "Night 3",
+      "Night 3",
+      "Night 3",
+      "Night 3",
+      "Night 3",
+      "Night 3",
+      "Night 3",
+      "Night 3",
+      "Night 3",
+      "Night 3"
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/evil_3.png"
     ]
   }
 ]
