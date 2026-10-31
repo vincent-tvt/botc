@@ -348,7 +348,7 @@
     "team": "minion",
     "otherNightReminder": "Show which players were chosen by the Demon tonight. Krampus chooses one.",
     "setup": false,
-    "otherNight": 36,
+    "otherNight": 34,
     "ability": "Each night*, choose a player. If they have been on the naughty list for two nights in a row, they die.",
     "flavor": "bleet",
     "image": [
