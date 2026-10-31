@@ -27,7 +27,7 @@
     "team": "townsfolk",
     "firstNightReminder": "Show the size of the largest group of good players sitting next to each other.",
     "setup": false,
-    "ability": "You start knowing the largest group of good players sitting next to each other.",
+    "ability": "You start knowing the size of the largest group of good players sitting next to each other.",
     "flavor": "To be written",
     "firstNight": 39,
     "image": [
@@ -307,7 +307,7 @@
     "setup": false,
 	"otherNight": 28,
 	"firstNight": 28,
-    "ability": "Each night, choose a player: If they are on the naughty list, their votes do not count the next day.",
+    "ability": "Each night, choose two players: If they are on the naughty list, their votes do not count the next day.",
     "flavor": "bleet",
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/MINIONS_Saint_Nicholas.png"
@@ -325,7 +325,7 @@
     "setup": false,
     "otherNight": 30,
 	  "firstNight": 30,
-    "ability": "Once per game, at night, choose a character: If in play, they are poisoned and you gain their ability.",
+    "ability": "You are always on the naughty list. Once per game, at night, choose a character: If in play, they are poisoned and you gain their ability.",
     "flavor": "bleet",
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/MINONS_Jólarköttur.png"
@@ -349,7 +349,7 @@
     "otherNightReminder": "Show which players were chosen by the Demon tonight. Krampus chooses one.",
     "setup": false,
     "otherNight": 36,
-    "ability": "Each night*, you learn which players were chosen by the Demon. Choose which one dies.",
+    "ability": "Each night*, choose a player. If they have been on the naughty list for two nights in a row, they die.",
     "flavor": "bleet",
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/MINIONS_Krampus.png"
