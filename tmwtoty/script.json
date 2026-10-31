@@ -189,7 +189,7 @@
     "setup": false,
 	"firstNight": 53,
 	"otherNight": 62,
-    "ability": "Once per game, at night, choose a player: If they are evil and on the nice list, they become good. If they are good and on the naughty list, they die.",
+    "ability": "Once per game, at night, choose a alive player: If they are evil and on the nice list, they become good. If they are good and on the naughty list, they die.",
     "flavor": "bleet",
     "image": [
       "https://raw.githubusercontent.com/vincent-tvt/botc/main/tmwtoty/icons_no_background/TOWNSFOLK_Redeemer_V1.png"
@@ -213,14 +213,12 @@
     "id": "pessimist",
     "name": "Pessimist",
     "team": "outsider",
-	"firstNightReminder": "If the Pessimist died tonight or yesterday, they may choose a player.",
 	"otherNightReminder": "If the Pessimist died tonight or yesterday, they may choose a player.",
     "reminders": [
       "Evil Team"
     ],
     "setup": false,
-	"firstNight": 67,
-	"otherNight": 80,
+	"otherNight": 37,
     "ability": "When you die, choose a player: If they are on the naughty list, they become evil.",
     "flavor": "bleet",
     "image": [
